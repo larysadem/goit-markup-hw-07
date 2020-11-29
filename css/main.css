@@ -181,8 +181,8 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/studio/hero.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/studio/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/studio/hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,7 +264,7 @@ button {
   right: 1.5%;
   width: 30px;
   height: 30px;
-  background-image: url(/images/icon/close.svg);
+  background-image: url(../images/icon/close.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffffff;
@@ -383,7 +383,7 @@ textarea {
 
 .checkbox-input:checked + .checkbox-icon {
   background-color: #2196f3;
-  background-image: url(/images/icon/check.svg);
+  background-image: url(../images/icon/check.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: #2196f3;
