@@ -487,6 +487,10 @@ img {
   line-height: 1.71;
 }
 
+.work {
+  background-color: var(--white);
+}
+
 .work-list {
   display: flex;
 }
