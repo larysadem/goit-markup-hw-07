@@ -118,4 +118,34 @@ body {
 .site-nav .current::after {
   opacity: 1;
 }
+
+.address {
+  font-style: normal;
+}
+
+.contacts-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacts-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #757575;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-link:hover, .contacts-link:focus {
+  --color4: $accent-color;
+}
+
+.icon-contacts {
+  margin-right: 10px;
+}
 /*# sourceMappingURL=main.css.map */
